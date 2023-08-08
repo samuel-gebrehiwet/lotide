@@ -1,16 +1,15 @@
-const eqArrays = function(arr1, arr2) {
-  if (arr1.length !== arr2.length) {
-    return false;
-  }
+//const eqArrays = function(arr1, arr2) {
+  //if (arr1.length !== arr2.length) {
+   // return false;
+ // }
 
-  for (let i = 0; i < arr1.length; i++) {
-    if (arr1[i] !== arr2[i]) {
-      return false;
-    }
-  }
-
-  return true;
-};
+ // for (let i = 0; i < arr1.length; i++) {
+   // if (arr1[i] !== arr2[i]) {
+    //  return false;
+  //  }
+  //
+  //return true;
+//};
 
 // Function to compare two arrays and log appropriate message to the console
 const assertArraysEqual = function(actual, expected) {
@@ -43,19 +42,19 @@ assertEqual(eqArrays(["1", "2", "3"], ["1", "2", 3]), false); // Should pass
 // middle.js
 
 // Function to compare two arrays and check if they are equal
-//const eqArrays = function(arr1, arr2) {
-  //if (arr1.length !== arr2.length) {
-    //return false;
-  //}
+const eqArrays = function(arr1, arr2) {
+  if (arr1.length !== arr2.length) {
+    return false;
+  }
 
-  //for (let i = 0; i < arr1.length; i++) {
-    //if (arr1[i] !== arr2[i]) {
-      //return false;
-    //}
-  //}
+  for (let i = 0; i < arr1.length; i++) {
+    if (arr1[i] !== arr2[i]) {
+      return false;
+    }
+  }
 
-  //return true;
-//};
+  return true;
+};
 
 // Function to compare two arrays and log an appropriate message to the console
 //const assertArraysEqual = function(actual, expected) {
@@ -80,7 +79,7 @@ const middle = function(array) {
     return [array[middleIndex1], array[middleIndex2]];
   }
 };
-
+module.exports = middle; // Export the middle function
 // TEST CODE
 assertArraysEqual(middle([1]), []); // Should pass, no middle
 assertArraysEqual(middle([1, 2]), []); // Should pass, no middle
