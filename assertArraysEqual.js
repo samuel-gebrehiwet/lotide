@@ -1,3 +1,15 @@
+
+//assertEqual.js
+const assertEqual = function(actual, expected) {
+  if (actual === expected) {
+    console.log(`✅ Assertion Passed: ${actual} === ${expected}`);
+  } else {
+    console.log(`❌ Assertion Failed: ${actual} !== ${expected}`);
+  }
+};
+
+
+
 const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false;
@@ -20,14 +32,6 @@ const assertArraysEqual = function(actual, expected) {
 };
 
 
-//assertEqual.js
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`❌ Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
 
 // TEST CODE
 assertEqual("Lighthouse Labs", "Bootcamp"); // ❌ Assertion Failed: Lighthouse Labs !== Bootcamp
