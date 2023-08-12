@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@samuelasmelash/lotide",
   "version": "1.0.0",
   "description": "",
   "main": "assertArraysEqual.js",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/samuel-gebrehiwet/lotide.git"
   },
-  "author": "",
+  "author": "samuel Gebrehiwet",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/samuel-gebrehiwet/lotide/issues"
@@ -21,5 +21,8 @@
   "homepage": "https://github.com/samuel-gebrehiwet/lotide#readme",
   "devDependencies": {
     "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
   }
 }
