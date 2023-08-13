@@ -21,7 +21,8 @@ describe("#countOnly", () => {
       Fang: true,
       Agouhanna: false,
     });
-    assert.strictEqual(result1["Jason"], 1);
+    assert.strictEqual(result1["Jason"], 
+    1);
   });
 
   it('it should return undefined for ["Karima"]', () => {
