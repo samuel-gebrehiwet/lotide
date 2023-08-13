@@ -3,7 +3,7 @@ const findKeyByValue = function (obj, value) {
   for (let key of keys) {
     if (obj[key] === value) {
       return key;
-    }
+   }
   }
 };
 

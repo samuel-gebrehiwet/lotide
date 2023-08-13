@@ -10,4 +10,4 @@ const middle = function (array) {
   }
 };
 
-module.exports = middle;
+module.exports =  middle;

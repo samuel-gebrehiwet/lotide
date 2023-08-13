@@ -7,7 +7,7 @@ const eqArrays = function (array1, array2) {
         isEqual = false;
       } else {
         isEqual = true;
-      }
+     }
     });
   }
   return isEqual;
